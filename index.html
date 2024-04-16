@@ -3,9 +3,103 @@
   <head>
     <meta name = "description" content = "Meeting minutes for a team">
     <title>Meeting Minutes</title>
-    <link rel="icon" href=
+    <link rel="icon" href="icons8-favicon-16.png" type="image/png">
   </head>
   <body>
+    <header>
+      <h1>Meeting Minutes</h1>
+      <p>Meeting minutes page</p>
+      <p>Date: April 15, 2024</p>
+      <p>Need to discuss and learn new information about html for our team</p>
+      <p>Unfinished business: introducing everyone</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#attendees">Attendees</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id = "agenda">
+        <h2>Agenda</h2>
+        <p>We dicussed:</p>
+        <ul>
+          <li>Topic 1</li>
+          <li>Topic 2</li>
+        </ul>
+      </section>
+      <section id = "attendees">
+        <h2>Attendees</h2>
+        <p>Who attended:</p>
+        <ol>
+          <li>Joe</li>
+          <li>Justina</li>
+        </ol>
+      </section>
+
+      <section id ="audio">
+        <h3>Audio Recording</h3>
+        <audio controls>
+          <source src="wind-chimes-37762.mp3" type = "audio/mpeg">
+        </audio>
+      </section>
+      <section id ="video">
+        <h3>Video Recording</h3>
+        <video controls>
+          <source src="WIN_20240413_13_50_03_Pro.mp4" type = "video/mp4">
+        </video>
+      </section>
+      <section id ="image">
+        <h3>Image</h3>
+          <img src="otter.jpg" alt="Mascot Photo">
+      </section>
+
+      <section id="additional-info">
+            <h3>Additional Information</h3>
+            <details>
+                <summary>Click for more details</summary>
+                <p>We met at someone's house and we were ate pizza after.</p>
+            </details>
+        </section>
+    </main>
+      <div>Div element</div>
+      <span>Span element</span>
+      <hr>
+
+      <p>There are lots of inline text semantics that exist in html. These can include <b>bold text</b>, strongly emphasized text which would be <strong>strongly emphasized text</strong>.</p>
+      <p>There is also text <i>italiziced text</i> as well as emphasized text which is seen as <em>emphasized text</em>.</p>
+      <p>This is a <a href="https://www.youtube.com">link</a> and we can make a line break:<br>All of these are ideas we researched during this meeting.</p>
     
+    </main>
+
+    <footer>
+      <p>2024 Kevin's Team</p>
+    </footer>
+
+    <form>
+      <fieldset>
+        <legend>Contact Form</legend>
+        <label for="name">Name:</label>
+        <input type ="text" id="name" name="name" value="Joe"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="Joe@gmail.com"><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="50" cols="50">Hello my name is Joe and I am excited to work for this team.</textarea><br>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+          <option value="USA">USA</option>
+          <option value="China">China</option>
+        <button type="Press">Press</button>
+        <label for="color">Choose a color:</label>
+        <input type="text" id="color" name="color" list="colors">
+        <datalist id ="colors">
+          <option value="Red">
+          <option value="Blue">
+        </datalist>
+          
+      </fieldset>
+    </form>
   </body>
 </html>
