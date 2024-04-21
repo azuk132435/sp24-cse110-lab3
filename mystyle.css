@@ -71,7 +71,7 @@ header p {
   margin-bottom: .05vh;
   padding-top: 30px;
   padding-right: 30px;
-  padding-bottom: 200px;
+  padding-bottom: 10px;
   padding-left: 30px;
   height: 100px;
   width: 400px;
@@ -80,7 +80,7 @@ header p {
 #video {
   position: static;
   margin: 50px 50px 50px 50px;
-  padding: 100px 100px 100px 100px;
+  padding: 10px 10px 10px 10px;
   max-width: 2500px;
   min-width: 400px;
 }
