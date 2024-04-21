@@ -87,10 +87,10 @@ nav li{
   margin-right: 0.5rem;
 /* Layouts */
 .layouts-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  gap: 15px;
+  display: block; 
+  margin: 0 auto;
+  max-width: 1200px; 
+  padding: 15px; 
 }
 .flex-example {
   display: flex;
@@ -100,9 +100,10 @@ nav li{
 }
 
 .flex-item {
-  flex: 1 1 auto;
+  flex: 0 1 calc(33.333% - 20px);
   margin: 10px;
   min-width: 100px; 
+  box-sizing: border-box;
 }
 .grid-example {
   display: grid;
