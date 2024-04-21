@@ -111,16 +111,41 @@ nav li{
   max-width: 1200px; 
   padding: 15px; 
 }
+@media screen and (min-width: 1025px) { /* Desktops */
+  header h1 {
+    font-size: 3.5em;
+  }
 
+  .layouts-container, #audio, #video, #attendees {
+    margin: 20px;
+    padding: 15px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1024px) { /* Tablets and small laptops */
+  header h1 {
+    font-size: 2.5em;
+  }
+
+  .layouts-container, #audio, #video, #attendees {
+    margin: 10px;
+    padding: 10px;
+  }
+}
 @media screen and (max-width: 768px){
-  nav {
-    max-width: 100%;
+  nav li {
+    display: block;
+    margin: 10px 0;
   }
   .layouts-container {
     justify-content: center;
   }
-  .flex-item, .grid-item {
-    width: 100%; 
+  .layouts-container, #audio, #video, #attendees {
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  header h1{
+    font-size: 2em;
   }
 }
 #agenda li {
