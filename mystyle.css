@@ -93,30 +93,26 @@ nav li{
   padding: 15px; 
 }
 .flex-example {
-  display: flex;
-  flex-wrap: wrap; 
-  justify-content: space-around; 
-  align-items: flex-start; 
-}
+    display: flex;            
+    flex-direction: row;       
+    justify-content: space-around; 
+    align-items: center;    
 
 .flex-item {
-  flex: 0 1 calc(33.333% - 20px);
-  margin: 10px;
-  min-width: 100px; 
-  box-sizing: border-box;
-}
-.grid-example {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  grid-gap: 20px; 
-  align-items: start; 
+    padding: 10px;            
+    border: 1px solid black;   
 }
 
+.grid-example {
+    display: grid;            
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px;             
+    justify-items: center;      
+
 .grid-item {
-  padding: 20px; 
-  min-height: 50px; 
-  border: 1px solid #ccc; 
-}
+    padding: 10px;              
+    border: 1px solid black;    
+
 
 @media screen and (max-width: 768px){
   nav {
