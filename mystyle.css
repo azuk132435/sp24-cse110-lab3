@@ -54,10 +54,6 @@ header p {
   border-color: #000; 
   border-width: 2px; 
   border-radius: 10px; 
-  border-style: solid; 
-  border-color: #000; 
-  border-width: 2px; 
-  border-radius: 10px; 
 }
 
 #agenda p{
@@ -78,6 +74,10 @@ header p {
   padding-left: 30px;
   height: 100px;
   width: 400px;
+  border-style: solid; 
+  border-color: #000; 
+  border-width: 2px; 
+  border-radius: 10px; 
 }
 
 #video {
