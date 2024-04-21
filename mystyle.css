@@ -14,12 +14,7 @@ input[type="text"] {
   font-weight: 400;
   font-style: normal;
 }
-#video video {
-    max-width: 480px;
-    max-height: 270px;
-    width: 100%;
-    height: auto;
-}
+
 
 #additional-info p:active {
   color: #ff4500; 
@@ -87,6 +82,12 @@ header p {
   border-radius: 5px;
   max-width: 1500px;
   min-width: 600px;
+}
+#video source {
+    max-width: 480px;
+    max-height: 270px;
+    width: 100%;
+    height: auto;
 }
 #attendees ol li {
   display: block;
