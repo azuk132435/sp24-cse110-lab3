@@ -14,6 +14,7 @@ header h1 {
 
 header p {
   margin-bottom: 1rem;
+  color: hsla(173, 100%, 50%, 1)
 }
 
 /* Wider-gamut Color*/
