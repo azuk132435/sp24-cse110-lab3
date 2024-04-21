@@ -75,7 +75,7 @@ header p {
   border-width: 2px; 
   border-radius: 10px; 
 }
-/*Borders*/
+
 #video {
   position: static;
   margin: 50px 50px 50px 50px;
@@ -83,12 +83,7 @@ header p {
   max-width: 2500px;
   min-width: 400px;
 }
-#video video{
-  position:absolute;
-  top: 0;
-  left: 0; 
-  width: 50%;
-  height: 50%;
+
 #attendees ol li {
   display: block;
 }
