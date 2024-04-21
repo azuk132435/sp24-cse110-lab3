@@ -83,11 +83,9 @@ header p {
   max-width: 1500px;
   min-width: 600px;
 }
-#video source {
-    max-width: 480px;
-    max-height: 270px;
-    width: 100%;
-    height: auto;
+#video video {
+  max-width: 40%;
+  height: auto;
 }
 #attendees ol li {
   display: block;
