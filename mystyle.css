@@ -50,6 +50,10 @@ header p {
   padding: 10px;
   text-decoration: underline;
   text-align: center;
+  border-style: solid; 
+  border-color: #000; 
+  border-width: 2px; 
+  border-radius: 10px; 
 }
 
 #agenda p{
@@ -70,10 +74,6 @@ header p {
   padding-left: 30px;
   height: 400px;
   width: 400px;
-  border-style: solid; 
-  border-color: #000; 
-  border-width: 2px; 
-  border-radius: 10px; 
 }
 
 #video {
@@ -123,18 +123,3 @@ nav li{
   font-style: normal; 
 }
 
-nav > ul > li {
-  font-style: normal; 
-}
-section ~ div {
-  background-color: transparent; 
-}
-section > header + p {
-  margin-top: 0; 
-}
-div.flex-example {
-  display: flex; 
-}
-p:has(> a) {
-  font-size: 1rem; 
-}
