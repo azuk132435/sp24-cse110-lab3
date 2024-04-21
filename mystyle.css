@@ -56,8 +56,8 @@ header p {
   border-color: #000;
   border-width: 3px;
   border-radius: 5px;
-  max-width: 600px;
-  min-width: 400px;
+  max-width: 2000px;
+  min-width: 600px;
 }
 #attendees ol li {
   display: block;
