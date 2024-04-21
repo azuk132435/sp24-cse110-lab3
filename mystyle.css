@@ -84,9 +84,10 @@ nav {
 }
 nav li{
   display: inline;
-  margin-right: 0.5 rem;
+  margin-right: 0.5rem;
 /* Layouts */
 .layouts-container {
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   gap: 15px;
