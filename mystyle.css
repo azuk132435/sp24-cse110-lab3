@@ -1,0 +1,116 @@
+/* styling */
+:root {
+  --main-color: #008E98;
+}
+  
+/* Color Name */
+header h1 {
+  color: blue
+  font-size: 1em;
+  width: 1in;
+}
+
+header p {
+  margin-bottom: 1.5rem;
+}
+
+/* Wider-gamut Color*/
+/* CSS variables and fallbacks */
+/* background color */
+/* text */
+#agenda h2 {
+  color: color(display-p3 0 1 0 / 0.8);
+  background-color: var(--main-color, #008E98)
+  padding: 10px;
+  text-decoraiton: underline;
+  text-align: cetner;
+}
+
+#agenda p{
+  display: block;
+  font-size: 0.25in;
+}
+  
+/*Margin*/
+/*Padding*/
+#audio {
+  margin-top: .2vh;
+  margin-right: 10px;
+  margin-left: 20px;
+  margin-bottom: .2vh;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  height: 40px;
+  width: 200px;
+}
+/*Borders*/
+#video {
+  position: static;
+  margin: 50px 50px 50px 50px;
+  padding: 30px 30px 30px 30px;
+  border-style: solid;
+  border-color: #000;
+  border-width: 3px;
+  border-radius: 5px;
+  max-width: 1000px;
+  min-width: 400px;
+}
+#attendees ol li {
+  display: inline-block;
+}
+
+nav {
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  max-width: 10%; 
+}
+/*pseudo-class*/
+#image img:hover {
+  opacity: 0.8; 
+}
+#image img:active {
+  transform: scale(0.95); 
+}
+
+/* Layouts */
+.layouts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+}
+.flex-example {
+  display: flex;
+  flex-direction: column; 
+}
+.flex-item {
+  margin: 10px; 
+}
+.grid-example {
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 20px;
+}
+
+.grid-item {
+  padding: 20px;
+}
+@media screen and (max-width: 768px){
+  nav {
+    max-width: 100%;
+  }
+  .layouts-container {
+    justify-content: center;
+  }
+  .flex-item, .grid-item {
+    width: 100%; 
+  }
+}
+#agenda li {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400; 
+  font-style: normal; 
+}
