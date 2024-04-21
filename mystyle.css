@@ -2,6 +2,14 @@
 :root {
   --main-color: rgb(0, 1, 0);
 }
+/*pseudo-class*/
+#image img:hover {
+  opacity: 0.8; 
+}
+#image img:active {
+  transform: scale(0.95); 
+}
+
 /* Color Name */
 header{
   padding: 1rem;
@@ -73,14 +81,6 @@ nav {
 nav li{
   display: inline;
   margin-right: 0.5 rem;
-/*pseudo-class*/
-#image img:hover {
-  opacity: 0.8; 
-}
-#image img:active {
-  transform: scale(0.95); 
-}
-
 /* Layouts */
 .layouts-container {
   flex-direction: column;
