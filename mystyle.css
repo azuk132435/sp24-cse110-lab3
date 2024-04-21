@@ -70,16 +70,16 @@ header p {
   padding-left: 30px;
   height: 40px;
   width: 200px;
+  border-style: solid; 
+  border-color: #000; 
+  border-width: 2px; 
+  border-radius: 10px; 
 }
 /*Borders*/
 #video {
   position: static;
   margin: 50px 50px 50px 50px;
   padding: 100px 100px 100px 100px;
-  border-style: solid;
-  border-color: #000;
-  border-width: 3px;
-  border-radius: 5px;
   max-width: 2500px;
   min-width: 400px;
 }
