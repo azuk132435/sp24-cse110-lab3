@@ -3,17 +3,21 @@
   --main-color: rgb(0, 1, 0);
 }
 #additional-info p:hover {
-  color: #ffa07a; /* Change text color on hover */
-  cursor: pointer; /* Indicates the text is interactive */
+  color: #ffa07a; 
+  cursor: pointer; 
 }
+input[type="text"] {
+  color: inherit;
 
 #additional-info p:active {
-  color: #ff4500; /* Change text color when the text is clicked or tapped */
-  transform: scale(0.98); /* Slightly reduce the size to simulate a press */
-  transition: transform 0.1s; /* Smooth the transformation */
+  color: #ff4500; 
+  transform: scale(0.98);
+  transition: transform 0.1s; 
 }
-
-
+/* universal*/
+* {
+  margin: 0;
+}
 /* Color Name */
 header{
   padding: 1rem;
@@ -109,3 +113,18 @@ nav li{
   font-weight: 400; 
   font-style: normal; 
 }
+
+nav > ul > li {
+  font-style: normal; 
+}
+section ~ div {
+  background-color: transparent; 
+}
+section > header + p {
+  margin-top: 0; 
+}
+div.flex-example {
+  display: flex; 
+}
+p:has(> a) {
+  font-size: 1rem; 
