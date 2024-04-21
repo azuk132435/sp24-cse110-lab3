@@ -9,12 +9,12 @@
 input[type="text"] {
   color: inherit;
 }
+
 .jersey-10-regular {
   font-family: "Jersey 10", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-
 
 #additional-info p:active {
   color: #ff4500; 
@@ -60,7 +60,6 @@ header p {
   border-radius: 10px; 
 }
 
-
 #agenda p{
   display: block;
   font-size: 0.25in;
@@ -99,10 +98,12 @@ nav {
   right: 0; 
   max-width: 10%; 
 }
+
 nav li{
   display: inline;
   margin-right: 0.5rem;
 }
+
 /* Layouts */
 .layouts-container {
   display: block; 
