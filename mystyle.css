@@ -8,6 +8,12 @@
 }
 input[type="text"] {
   color: inherit;
+}
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 #additional-info p:active {
   color: #ff4500; 
@@ -89,6 +95,7 @@ nav {
 nav li{
   display: inline;
   margin-right: 0.5rem;
+}
 /* Layouts */
 .layouts-container {
   display: block; 
@@ -128,3 +135,4 @@ div.flex-example {
 }
 p:has(> a) {
   font-size: 1rem; 
+}
