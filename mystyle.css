@@ -2,16 +2,20 @@
 :root {
   --main-color: #008E98;
 }
-  
+body {
+  margin: 0;
 /* Color Name */
+header{
+  padding: 1rem;
+  text-align:center;
+}
 header h1 {
   color: blue;
   font-size: 1em;
-  width: 1in;
 }
 
 header p {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 /* Wider-gamut Color*/
@@ -35,7 +39,7 @@ header p {
 /*Padding*/
 #audio {
   margin-top: .2vh;
-  margin-right: 10px;
+  margin-right: 1in;
   margin-left: 20px;
   margin-bottom: .2vh;
   padding-top: 30px;
@@ -67,6 +71,9 @@ nav {
   right: 0; 
   max-width: 10%; 
 }
+nav li{
+  display: inline;
+  margin-right: 0.5 rem;
 /*pseudo-class*/
 #image img:hover {
   opacity: 0.8; 
