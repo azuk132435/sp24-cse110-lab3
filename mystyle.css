@@ -89,20 +89,29 @@ nav li{
 }
 .flex-example {
   display: flex;
-  flex-direction: column; 
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+  align-items: flex-start; 
 }
+
 .flex-item {
-  margin: 10px; 
-}
+  flex: 1 1 auto;
+  margin: 10px;
+  min-width: 100px; 
+
 .grid-example {
-  display: grid; 
+  display: grid;
   grid-template-columns: repeat(3, 1fr); 
-  grid-gap: 20px;
+  grid-gap: 20px; 
+  align-items: start; 
 }
 
 .grid-item {
-  padding: 20px;
+  padding: 20px; 
+  min-height: 50px; 
+  border: 1px solid #ccc; 
 }
+
 @media screen and (max-width: 768px){
   nav {
     max-width: 100%;
