@@ -46,7 +46,7 @@ header p {
 /* background color */
 /* text */
 #agenda h2 {
-  color: color-mix(in srgb, #95333d, #e01065 34%);
+  color: color-mix(in srgb, #95333d 50%, white);
   background-color: var(--main-color, #008E98);
   padding: 10px;
   text-decoration: underline;
