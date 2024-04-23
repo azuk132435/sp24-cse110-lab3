@@ -1,6 +1,6 @@
 # Standup Notes
 
-##Kevin Truong
+## Kevin Truong
 
 ### What did I work on yesterday?
 I overlooked the entire lab getting an idea of what is happening. Took note of anything that seemed excessively difficult or time consuming allocating accordingly.
@@ -11,7 +11,7 @@ Getting a start on the specifications of the lab and going through and finishing
 ### What issues are blocking me?
 Some of the wording and descriptions is a bit confusing for me. I haven't ever used Git formally outside of just personal things so it took awhile figuring out the proper way to set up Github properly. 
 
-##Joe (imaginary person)
+## Joe (imaginary person)
 
 ### What did I work on yesterday?
 N/A
